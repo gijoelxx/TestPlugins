@@ -1,4 +1,4 @@
-import com.lagradost.cloudstream3.gradle.CloudstreamExtension 
+derimport com.lagradost.cloudstream3.gradle.CloudstreamExtension 
 import com.android.build.gradle.BaseExtension
 
 buildscript {
@@ -42,7 +42,7 @@ subprojects {
     android {
         defaultConfig {
             minSdk = 21
-            compileSdkVersion(33)
+            compileSdkVersion(30)
             targetSdk = 33
         }
 
