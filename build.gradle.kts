@@ -78,6 +78,9 @@ subprojects {
         implementation("org.jsoup:jsoup:1.16.2") // html parser
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.0")
         implementation("com.fasterxml.jackson.core:jackson-databind:2.16.0")
+        implementation("com.fasterxml.jackson.core:jackson-annotations:2.13.0")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
+        implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2")
     }
 }
 
